@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Session Test Automation Suite" verbose="0">
+
+	<listeners>
+		<listener class-name="com.google.qa.ExtentReportsListener.ExtentReportNG"></listener>
+	</listeners>
+
+	<test name="Different TestNG Feature Test" preserve-order="true">
+
+	   <classes>		
+		   <class name="com.google.qa.testcases.CheckMailTest"/>	
+		   <class name="com.google.qa.testcases.FriendsPageTest"/>	 
+		   <class name="com.google.qa.testcases.LoginPageTest"></class>  
+		 
+	  </classes>
+	
+	</test>
+
+</suite>              

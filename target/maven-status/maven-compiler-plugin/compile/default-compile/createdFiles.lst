@@ -1,0 +1,7 @@
+com\google\qa\ExtentReportsListener\ExtentReportNG.class
+com\google\qa\pages\FriendsPage.class
+com\google\qa\util\WebEventListener.class
+com\google\qa\pages\LoginPage.class
+com\google\qa\base\TestBase.class
+com\google\qa\util\TestUtil.class
+com\google\qa\pages\CheckMail.class
